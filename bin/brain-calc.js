@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-
-import welcome from '../src/cli.js';
-welcome();  
+import runGame from '../src/engine.js';
+runGame();
+import { getQuestionAndAnswer, instructions} from '../src/calc.js';
+getQuestionAndAnswer();
+instructions();
