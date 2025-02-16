@@ -6,15 +6,15 @@ const description = 'What number is missing in the progression?';
 const generateProgression = (start, step, length) => {
   const progression = [];
   for (let i = 0; i < length; i += 1) {
-    progression.push(start + step * i);
-  };
+    progression.push(start + step * i)
+  }
   return progression;
 };
 
 const generateQuestion = () => {
-  const progressionLength = getRandomInt(5,10);// длина прогрессии
+  const progressionLength = getRandomInt(5, 10);// длина прогрессии
   const start = getRandomInt(1, 50);// первое число на рандом
-  const step = getRandomInt(1,10);// шаг на рандом
+  const step = getRandomInt(1, 10);// шаг на рандом
   const progression = generateProgression(start, step, progressionLength);
   // Убедимся, что индекс в пределах массива
   const hiddenIndex = getRandomInt(0, progressionLength - 1);

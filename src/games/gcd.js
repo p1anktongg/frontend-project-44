@@ -4,11 +4,10 @@ import runGame from '../index.js';
 const description = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
-  if (b === 0) {
+  if (b === 0) { 
     return a;
-  };
+  }
   return gcd(b, a % b);
-
 };
 
 const generateQuestion = () => {
@@ -22,4 +21,3 @@ const generateQuestion = () => {
 const runGcdGame = () => runGame(description, generateQuestion);
 
 export default runGcdGame;
-    
