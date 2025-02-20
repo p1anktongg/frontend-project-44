@@ -2,8 +2,18 @@
 [![Actions Status](https://github.com/p1anktongg/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/p1anktongg/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c4c122fef9c88918076d/maintainability)](https://codeclimate.com/github/p1anktongg/frontend-project-44/maintainability)
 
-> [!NOTE] 
-> **For setup use:** make install
+> [!NOTE] How to setup games 
+> ### clone repository to your terminal
+> git clone git@github.com:p1anktongg/frontend-project-44.git
+> cd frontend-project-44
+> ### install dependencies for play
+> make install
+> ### let`s play!
+> brain-even
+> brain-calc
+> brain-gcd
+> brain-progression
+> brain-prime
 
 > [!TIP]
 > ## Minimal systems requirements:
