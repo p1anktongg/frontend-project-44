@@ -11,13 +11,17 @@ git clone git@github.com:p1anktongg/frontend-project-44.git
 cd frontend-project-44
 ```
  ### install dependencies for play
-> make install
+``` 
+make install
+```
 ### let`s play! Enter: 
-> brain-even
-> brain-calc
-> brain-gcd
-> brain-progression
-> brain-prime
+```
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+```
 
 > [!TIP]
 > ## Minimal systems requirements:
