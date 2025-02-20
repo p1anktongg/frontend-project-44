@@ -16,3 +16,8 @@ lint:
 		npx eslint .
 record: 
 		asciinema rec demo.cast
+push:
+		git add .
+		git pull
+		git commit -m 'test'
+		git push

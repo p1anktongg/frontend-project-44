@@ -6,8 +6,10 @@
 > ### How to setup games 
 
 ### clone repository to your terminal
-> git clone git@github.com:p1anktongg/frontend-project-44.git
-> cd frontend-project-44
+```
+git clone git@github.com:p1anktongg/frontend-project-44.git
+cd frontend-project-44
+```
  ### install dependencies for play
 > make install
 ### let`s play! Enter: 
