@@ -1,6 +1,7 @@
 <h1 align="center">BRAIN-GAMES</h1>
 <h3 align="center"> - my first frontend-developing experience. These are some of the education games: Brain-сalc, where you have to answer questions like "5 + 5?" Brain-even, where the main thing is whether a number "is even" or not. And there are other education games too! </h3>
 <h3>Example:</h3>
+
 ``` 
 Welcome to the Brain Games!
 May I have your name? Sam
