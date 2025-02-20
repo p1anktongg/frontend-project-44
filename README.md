@@ -2,8 +2,28 @@
 [![Actions Status](https://github.com/p1anktongg/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/p1anktongg/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c4c122fef9c88918076d/maintainability)](https://codeclimate.com/github/p1anktongg/frontend-project-44/maintainability)
 
-> [!NOTE] 
-> ### How to setup games 
+# BRAIN-GAMES
+## This is BRAIN-GAMES - my first frontend-developing experience. These are some of the games: Brain-сalc, where you have to answer questions like "5 + 5?" Brain-even, where the main thing is whether a number "is even" or not. And there are other fun games too! 
+### Try. This. NOW! LET`S PLAY!!!
+
+### Example: 
+<Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if the number is even, otherwise answer "no".
+Question: 15
+Your answer: no
+Correct!
+Question: 6
+Your answer: yes
+Correct!
+Question: 7
+Your answer: no
+Correct!
+Congratulations, Sam!>
+
+> [!TIP] 
+> ## How to setup games 
 
 ### clone repository to your terminal
 ```
@@ -17,30 +37,38 @@ make install
 ### let`s play! Enter: 
 ```
 brain-even
+```
+```
 brain-calc
+```
+```
 brain-gcd
+```
+```
 brain-progression
+```
+```
 brain-prime
 ```
 
-> [!TIP]
+> [!NOTE]
 > ## Minimal systems requirements:
 > **Windows**: 7 (64-bit) *or newer*;
->  **macOS**: 10.12 (Sierra) *or newer*;
->  **Linux**: Ubuntu 18.04+ *or similar distributions*;
->  **Supporting terminal**: Powershell, WSL, Bash *or other*
+> **macOS**: 10.12 (Sierra) *or newer*;
+> **Linux**: Ubuntu 18.04+ *or similar distributions*;
 > **Node.js**: 14.x *or newer*;
+> **Supporting terminal**: Powershell, WSL, Bash *or other*
 > ### Memory:  
 > RAM: 512 MB *(recommended 1 GB)*,
-> ROM: 100-150 MB;
+> Free space : 100-150 MB;
 > ### CPU:
 > 1 Ghz *or higher* (*supporting x86/x64)
 > ### *Additional dependencies*: 
-> npm v. 6.x. *or newer*
-> readlineSync (npm install)
+> *npm v. 6.x. or newer*
+> *readlineSync **(npm install)***
 > ### Network: 
 > needs only for *npm install*, games working offline
-## Presentaion of game`s work
+## Asciinema of game`s work
 ### Brain-even & brain-calc
 [![asciicast](https://asciinema.org/a/WqigXtgsTTsn87dOnMyi5xAof.svg)](https://asciinema.org/a/WqigXtgsTTsn87dOnMyi5xAof)
 ### Brain-gcd
