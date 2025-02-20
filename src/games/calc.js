@@ -1,4 +1,4 @@
-import getRandomInt from '../utils.js';
+import getRandomInteger from '../utils.js';
 import runGame from '../index.js';
 
 const description = 'What is the result of the expression?';
@@ -17,10 +17,10 @@ const calculate = (num1, num2, operator) => {
 };
 
 const generateQuestion = () => {
-  const num1 = getRandomInt(1, 100);
-  const num2 = getRandomInt(1, 100);
+  const num1 = getRandomInteger(1, 100);
+  const num2 = getRandomInteger(1, 100);
   const operators = ['+', '-', '*'];
-  const operator = operators[getRandomInt(0, operators.length - 1)];
+  const operator = operators[getRandomInteger(0, operators.length - 1)];
   const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = String(calculate(num1, num2, operator));
   return [question, correctAnswer];
