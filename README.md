@@ -1,13 +1,8 @@
-# Hexlet tests and linter status:
-[![Actions Status](https://github.com/p1anktongg/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/p1anktongg/frontend-project-44/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c4c122fef9c88918076d/maintainability)](https://codeclimate.com/github/p1anktongg/frontend-project-44/maintainability)
-
-# BRAIN-GAMES
-## This is BRAIN-GAMES - my first frontend-developing experience. These are some of the games: Brain-сalc, where you have to answer questions like "5 + 5?" Brain-even, where the main thing is whether a number "is even" or not. And there are other fun games too! 
-### Try. This. NOW! LET`S PLAY!!!
-
-### Example: 
-<Welcome to the Brain Games!
+<h1 align="center">BRAIN-GAMES</h1>
+<h3 align="center"> - my first frontend-developing experience. These are some of the education games: Brain-сalc, where you have to answer questions like "5 + 5?" Brain-even, where the main thing is whether a number "is even" or not. And there are other education games too! </h3>
+<h3>Example:</h3>
+``` 
+Welcome to the Brain Games!
 May I have your name? Sam
 Hello, Sam!
 Answer "yes" if the number is even, otherwise answer "no".
@@ -20,7 +15,8 @@ Correct!
 Question: 7
 Your answer: no
 Correct!
-Congratulations, Sam!>
+Congratulations, Sam!
+```
 
 > [!TIP] 
 > ## How to setup games 
