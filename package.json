@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/p1anktongg/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/p1anktongg/frontend-project-44/actions)",
+  "description": "Hexlet frontend-project №1 [![Actions Status](https://github.com/p1anktongg/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/p1anktongg/frontend-project-44/actions)",
   "bin": {
     "brain-games": "./bin/brain-games.js",
     "brain-calc": "./bin/brain-calc.js",
